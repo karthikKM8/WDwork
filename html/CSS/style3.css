@@ -11,17 +11,17 @@ header{
 section{
     width: 700px;
     height: 500px;
-    border: 10px dashed;
+    border: 10px double;
     float: left;
     margin-top: 40px;
-    border-color: rgb(10, 209, 244);
+    border-color: rgb(141, 16, 0);
     text-align: justify;
     font-size: 30px;
 }
 .bigbox{
     width: 700px;
     height: 680px;
-    border: 15px dotted;
+    border: 15px double;
     border-color: red;
     float: right;
     margin-top: 10px;
@@ -29,7 +29,7 @@ section{
 .imgs{
     width: 600px;
     height: 300px;
-    border: 5px dotted;
+    border: 5px groove;
     border-color: rgb(red, green, blue);
     float: right;
     margin-right: 30px;
