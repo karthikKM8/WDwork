@@ -1,0 +1,46 @@
+header{
+    height: 120px;
+    padding-top: 15px;
+    border: 10px;
+    border-color: black;
+    background-color: yellow;
+    font-size: 50px;
+    text-align: center;
+
+}
+section{
+    width: 700px;
+    height: 500px;
+    border: 10px dashed;
+    float: left;
+    margin-top: 40px;
+    border-color: rgb(10, 209, 244);
+    text-align: justify;
+    font-size: 30px;
+}
+.bigbox{
+    width: 700px;
+    height: 680px;
+    border: 15px dotted;
+    border-color: red;
+    float: right;
+    margin-top: 10px;
+}
+.imgs{
+    width: 600px;
+    height: 300px;
+    border: 5px dotted;
+    border-color: rgb(red, green, blue);
+    float: right;
+    margin-right: 30px;
+}
+#topbox{
+    margin-top: 50px;
+    float: right;
+}
+
+#smallbox{
+    margin-top: 10px;
+    float: right;
+}
+
