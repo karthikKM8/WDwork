@@ -1,0 +1,17 @@
+.odd{
+    background-color: red;
+    color:yellow;
+}
+.even{
+    background-color: yellow;
+    color:red;
+
+}
+#spl{
+    color: rgb(219, 7, 14);
+    background-color: rgb(7, 212, 44);
+    transition: 5sec;
+    text-transform: capitalize;
+    text-align: center;
+    text-shadow: 5px greenyellow;
+}
