@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        #container{
+            background-color: rgb(233, 252, 21);
+            width : 300px;
+            height: 150px;       
+        }
+        .inputno{
+            width : 200px;
+            margin: 10px;
+        }
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <div id = "container">
+    <input type="text" class = "inputno" id = "no1" placeholder="Enter no1">
+    <br>
+    <input type="text" class = "inputno" id = "no2" placeholder="Enter no2" >
+    <br>
+    <button onclick = "addnos()">Add</button>
+    <button onclick = "subnos()">Subtract</button>
+    <button onclick = "mulnos()">Multiply</button>
+    <button onclick = "divnos()">Divide</button>
+    <div id = "result">     
+    </div>
+   </div> 
+   <script>
+    function addnos()
+    {
+      var n1= document.getElementById("no1").value 
+      var n2= document.getElementById("no2").value
+      result = parseInt(n1) + parseInt(n2);
+      document.getElementById("result").textContent = "Result is:" + result
+    }
+    function subnos()
+    {
+      var n1= document.getElementById("no1").value 
+      var n2= document.getElementById("no2").value
+      result = parseInt(n1) - parseInt(n2);
+      document.getElementById("result").textContent = "Result is:" + result
+    }
+    function mulnos()
+    {
+      var n1= document.getElementById("no1").value 
+      var n2= document.getElementById("no2").value
+      result = parseInt(n1) * parseInt(n2);
+      document.getElementById("result").textContent = "Result is:" + result
+    }
+    function divnos()
+    {
+      var n1= document.getElementById("no1").value 
+      var n2= document.getElementById("no2").value
+      result = parseInt(n1) / parseInt(n2);
+      document.getElementById("result").textContent = "Result is:" + result
+    }
+   </script>
+</body>
+</html>

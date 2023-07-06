@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    
+        button{
+            width: 100px;    
+        }
+        #submenu{
+            display: none;
+        }      
+    </style>
+</head>
+<body>
+    <div id = "Mainmenu">
+        <button onclick = "showsubmenu()"> Menu</button>
+        <div id = "submenu">
+            <button onclick = "navigate('home')"> Home</button><br>
+            <button onclick = "navigate('about')"> About</button><br>
+            <button onclick = "navigate('services')"> Services</button><br>
+            <button onclick = "navigate('Contact')"> Contactus</button><br>
+        </div>
+
+    </div>
+    <script>
+        function navigate(page) {
+          alert("Navigating to " + page);
+          // Add your navigation logic here
+        }
+        function showsubmenu(){
+            document.getElementById("submenu").style.display = "block";
+        }
+      </script>
+</body>
+</html>
