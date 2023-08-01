@@ -1,9 +1,0 @@
-<html>
-<head>
-</head>
-<body>
-<!--Hi Learn animation-->
-<marquee>
-HI I AM SCROLING SIDE_
-</body>
-</html>

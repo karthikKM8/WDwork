@@ -1,20 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    <p id ="p1">I am a Student</p>
+    <P id="p1">
+        I am Student
+    </P>
     <script>
-        function change()
-        {
-            document.getElementById("p1").innerHTML="I am a Gardenian"
+        function getcube() {
+            var n = document.getElementById("no").value;
+            /*document.write("The cube is :" + n);*/
+            alert("The cube of the given no is  " + n * n * n);
+            document.getElementById("p1").innerHTML = "I am student"
+
         }
+
     </script>
-    <button onclick="change()">
-    change
-</button>
+    <form name="f">
+        <input type="text" id="no">
+        <br>
+        <input type="button" value="findcube" onclick="getcube()">
+    </form>
+
+
 </body>
+
 </html>
