@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Website</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    .navbar-brand img {
+      max-width: 150px;
+    }
+    .bg-mild-orange {
+      background-color: #ea7813; 
+    }
+    .navbar-light .navbar-nav .nav-link {
+      color: white;
+    }
+
+    .navbar-light .navbar-nav .nav-link:hover {
+      color: #f8f9fa; 
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navigation bar -->
+  <nav class="navbar navbar-expand-md navbar-light bg-mild-orange">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="images\GLEARN.jpg" alt="Your Logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#team">Faculty</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="coursesDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Courses
+            </a>
+            <div class="dropdown-menu" aria-labelledby="coursesDropdown">
+              <a class="dropdown-item" href="#">Cyber Security</a>
+              <a class="dropdown-item" href="#">AI & ML</a>
+              <a class="dropdown-item" href="#">Data Science</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#help">Help</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Slides -->
+  <div id="home" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://www.educonsa.com/images/quotes_mandela_on_education.jpg" class="d-block w-100" alt="Slide 1">
+        <div class="carousel-caption">
+          <h3>Welcome to Our G-Learn Platform</h3>
+          <p>The One Website for all Your Educational Needs.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://www.edsys.in/wp-content/uploads/2-2-1.jpg" class="d-block w-100" alt="Slide 2">
+        <div class="carousel-caption">
+          <h3>Quality Services</h3>
+          <p>We provide top-notch services for all your needs.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://www.gardencity.university/images/our-pro9.jpg" class="d-block w-100" alt="Slide 3">
+        <div class="carousel-caption">
+          <h3>Meet Our Team</h3>
+          <p>Our talented and dedicated team is ready to assist you.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+   
+   <div class="container mt-5">
+    <h2>Course Study Registration</h2>
+    <form>
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" class="form-control" id="name" required>
+      </div>
+      <div class="form-group">
+        <label for="dob">Date of Birth:</label>
+        <input type="date" class="form-control" id="dob" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" class="form-control" id="email" required>
+      </div>
+      <div class="form-group">
+        <label for="contact">Contact/WhatsApp Number:</label>
+        <input type="tel" class="form-control" id="contact" required>
+      </div>
+      <div class="form-group">
+        <label>Select Course (Choose one):</label><br>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="Course1" id="course1" value="CS" required>
+          <label class="form-check-label" for="course1">CYBER SECURITY</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="Course2" id="course2" value="aiml" required>
+          <label class="form-check-label" for="course2">ARTIFICIAL INTELLIGENCE & ML</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="Course3" id="course3" value="ds" required>
+          <label class="form-check-label" for="course3">DATA SCIENCE</label>
+        </div>
+        <br>
+      <div class="form-group">
+        <label for="Year">Select Academic Year:</label><br>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="Year" id="sem1" value="YEAR 1" required>
+          <label class="form-check-label" for="year1">YEAR 1</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="Year" id="sem2" value="YEAR 2" required>
+          <label class="form-check-label" for="year2">YEAR 2</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="Year" id="sem3" value="YEAR 3" required>
+          <label class="form-check-label" for="year3">YEAR 3</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="Year" id="sem3" value="YEAR 4" required>
+          <label class="form-check-label" for="year4">YEAR 4</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
