@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=Nova+Script&family=Seaweed+Script&family=Space+Grotesk:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style1.css">
+</head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  <header class="fs-4">
+    <nav class="navbar navbar-expand-lg bg-white">
+        <div class="container-fluid">
+          <a class="navbar-brand fs-2" href="#"><strong>ONE</B>-<span class="logo">kart</span></strong></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Categories
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Trending Stores</a></li>
+                  <li><a class="dropdown-item" href="#">Grocery</a></li>
+                  <li><a class="dropdown-item" href="#">Fashion</a></li>
+                  <li><a class="dropdown-item" href="#">Appliances</a></li>
+                  <li><a class="dropdown-item" href="#">Furniture</a></li>
+                  <li><a class="dropdown-item" href="#">Personal Care</a></li>
+                  <li><a class="dropdown-item" href="#">Food & more</a></li>
+                  <li><a class="dropdown-item" href="#">Sports Hub</a></li>
+                  <li><a class="dropdown-item" href="#">Medicines</a></li>
+                  <li><a class="dropdown-item" href="#">Home Services</a></li>
+                  <li><a class="dropdown-item" href="#">Gift Cards</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#team">Retailers</a>
+              </li> 
+              <li class="nav-item">
+                <a class="nav-link" href="#cart">Cart </a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section>
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://m.media-amazon.com/images/G/31/img2020/fashion/WA_2020/Gateway/apparelmin50/EOSS-Min50._CB410624090_.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Top Brands with Top Notch Quality</h5>
+                  <p>One Destination for all your Fashion Needs...</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://asset20.ckassets.com/blog/wp-content/uploads/sites/5/2021/12/How-to-Save-Money-on-Home-Appliances-in-India.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Home Appliances</h5>
+                  <p> A1 Quality Certified electronic appliances for all your daily needs...</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://i.pinimg.com/originals/39/47/cc/3947cc587726a77b4819caec13aceaa9.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Buy-Cook-Eat</h5>
+                  <p>Daily fresh,Fruits and vegetables and Finest quality of Grocery products for Healthy Lifestyle...</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+    <section id="about">
+        <div class="row">
+            <h1 class="text-center"> About <strong>ONE</B>-<span class="logo">kart</span></strong></h1>
+        </div>
+        <hr / class = "w-25 m-auto">
+       <div class="row p-4">
+        <div class="col col-md-6 col-sm-12 col-lg-6">
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button fs-3" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                      Accordion Item #1
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse ">
+                    <div class="accordion-body">
+                      <strong>Welcome To Our One-kart Shopping Platform.</strong> Discover a premier online shopping destination that brings together a curated selection of top brands in clothing, groceries, fresh fruits and vegetables, and cutting-edge electrical appliances. Experience convenience and variety as you explore a diverse range of products, from stylish attire to nourishing produce and innovative gadgets. Elevate your shopping journey with seamless navigation and secure transactions, all in one platform. Welcome to a world of quality and choice, where every click opens doors to the best in lifestyle and home essentials.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed fs-3" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                      Accordion Item #2
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed fs-3" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                      Accordion Item #3
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="col col-md-6 col-sm-12 col-lg-6 col-12">
+            <img src="https://t3.ftcdn.net/jpg/02/41/43/18/360_F_241431868_8DFQpCcmpEPVG0UvopdztOAd4a6Rqsoo.jpg"width=700, height=350/>
+        </div>
+       </div>
+    </section>
+    <section id="services">
+        <div class="row p-2">
+            <h1 class="text-center">100+ Categories to Buy at <strong>ONE</B>-<span class="logo">kart</span></strong></h1>
+        </div>
+        <hr / class = "w-25 m-auto">
+       <div class="row">
+        <div class="col-sm-4 mb-4 mb-sm-0">
+            <div class="card p-2">
+              <div class="card-body p-2">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>          
+       </div>
+       <div class="col-sm-4 mb-4 mb-sm-0">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Special title treatment</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>          
+   </div>
+   <div class="col-sm-4 mb-4 mb-sm-0">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>          
+</div>
+       </div>
+       <div class="row">
+        <div class="col-sm-4 mb-4 mb-sm-0">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>          
+       </div>
+       <div class="col-sm-4 mb-4 mb-sm-0">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Special title treatment</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>          
+   </div>
+   <div class="col-sm-4 mb-4 mb-sm-0">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>          
+</div>
+       </div>
+    </section>
+
+    <section id="team">
+        <div class="row">
+            <h1 class="text-center"> Meet Our Retailers <strong>ONE</B>-<span class="logo">kart</span></strong></h1>
+        </div>
+        <hr / class = "w-25 m-auto">
+
+        <div class="row">
+            <div class="col-sm-4 mb-4 mb-sm-0">
+                <div class="card" >
+                    <img src="https://pbs.twimg.com/profile_images/646260852719419392/Ar3oqF39_400x400.png"width=500, height=300 class="card-img-top rounded-circle p-2" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Reliance Digital is an Indian consumer electronics retailer. It is a subsidiary of Reliance Retail, a wholly owned subsidiary of Reliance Industries. Reliance Digital opened its first store on 24 April 2007 in Delhi.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-4 mb-4 mb-sm-0">
+                <div class="card" >
+                    <img src="https://images.yourstory.com/cs/2/220356402d6d11e9aa979329348d4c3e/Flipkart-1582211499554.jpg?w=1152&fm=auto&ar=2:1&mode=crop&crop=faces"width=500, height=300 class="card-img-top rounded-circle p-2" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Flipkart Private Limited is an Indian e-commerce company, headquartered in Bangalore, and incorporated in Singapore as a private limited company.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-4 mb-4 mb-sm-0">
+                <div class="card">
+                    <img src="https://www.performics.com/in/wp-content/uploads/sites/6/2023/06/amazon-3.jpg"width=500, height=300 class="card-img-top rounded-circle p-2" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Amazon is an American multinational technology company which focuses on e-commerce, cloud computing, and digital streaming. Its one of the most influential economic and cultural forces in the world,and is one of the world's most valuable brands.</p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="row">
+            <h1 class="text-center"> Shop @ <strong>ONE</B>-<span class="logo">kart</span></strong></h1>
+        </div>
+        <hr / class = "w-25 m-auto">
+
+        <div class="row">
+            <div class="col col-lg-6 col-md-6">
+                <img src="https://www.europarl.europa.eu/resources/library/images/20160609PHT31661/20160609PHT31661_original.jpg"width=700, height="400"/>
+            </div>
+            <div class="col col-lg-6 col-md-6">
+                <form class="row g-3">
+                    <div class="col-md-6">
+                      <label for="inputEmail4" class="form-label">Email</label>
+                      <input type="email" class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputPassword4" class="form-label">Password</label>
+                      <input type="password" class="form-control" id="inputPassword4">
+                    </div>
+                    <div class="col-12">
+                      <label for="inputAddress" class="form-label">Delivery Location</label>
+                      <input type="text" class="form-control" id="inputAddress" placeholder="#.....................................">
+                    </div>
+                    
+                    <div class="col-md-6">
+                      <label for="inputCity" class="form-label">City</label>
+                      <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="col-md-4">
+                      <label for="inputState" class="form-label">State</label>
+                      <select id="inputState" class="form-select">
+                        <option selected>Choose...</option>
+                        <option>Andhra Pradesh</option>
+                        <option>Arunachal Pradesh</option>
+                        <option>Assam</option>
+                        <option>Bihar</option>
+                        <option>Chhattisgarh</option>
+                        <option>Goa</option>
+                        <option>Gujarat</option>
+                        <option>Haryana</option>
+                        <option>Himachal Pradesh</option>
+                        <option>Jharkhand</option>
+                        <option>Karnataka</option>
+                        <option>Kerala</option>
+                        <option>Madhya Pradesh</option>
+                        <option>Maharashtra</option>
+                        <option>Manipur</option>
+                        <option>Meghalaya</option>
+                        <option>Mizoram</option>
+                        <option>Nagaland</option>
+                        <option>Odisha</option>
+                        <option>Punjab</option>
+                        <option>Rajasthan</option>
+                        <option>Sikkim</option>
+                        <option>Tamil Nadu</option>
+                        <option>Telangana</option>
+                        <option>Tripura</option>
+                        <option>Uttar Pradesh</option>
+                        <option>Uttarakhand</option>
+                        <option>West Bengal</option>
+                      </select>
+                    </div>
+                    <div class="col-md-2">
+                      <label for="inputZip" class="form-label">Zip</label>
+                      <input type="text" class="form-control" id="inputZip">
+                    </div>
+                    <div class="col-12">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                          Remember me
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <button type="submit" class="btn btn-primary">Sign in</button>
+                    </div>
+                  </form>
+            </div>
+        </div>
+    </section>
+  <footer>
+    <div class="bg-primary text-center text-white fs-3">
+        Developed by Karthik K M
+    </div>
+  </footer>
+</body>
+</html>
